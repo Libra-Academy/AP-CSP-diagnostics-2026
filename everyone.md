@@ -1,7 +1,7 @@
 # Group Signature
 Type your name, your favorite animal on any of the line below. When you are done, save and make sure you can see your changes on GitHub.
 
-1. _
+1. _Manuel Juarez,Monkey
 2. _
 3. _
 4. _
