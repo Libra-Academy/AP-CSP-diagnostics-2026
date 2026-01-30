@@ -1,0 +1,41 @@
+name: Auto Merge Main into PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  auto-merge-main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Merge main into PR branch
+        run: |
+          git fetch origin main
+          git merge origin/main --no-edit || {
+            echo "::warning::Merge conflict detected. Please resolve manually."
+            exit 0
+          }
+      
+      - name: Push changes
+        run: |
+          git push origin ${{ github.event.pull_request.head.ref }} || {
+            echo "::warning::Failed to push changes. This may be a fork or permissions issue."
+            exit 0
+          }
