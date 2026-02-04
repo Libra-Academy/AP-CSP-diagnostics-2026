@@ -5,9 +5,9 @@ Type your name, your favorite animal on any of the line below. When you are done
 2. _
 3. _
 4. _
-5. _
+5. _Allan Guijosa - Dog
 6. _
-7. _Allan Guijosa - Snow Leopard
+7. _
 8. _
 9. _
 10. _
