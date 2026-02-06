@@ -1,0 +1,6 @@
+When I first opened repo I had a hard time getting a feel for it because I was trying to explore on how to start off, but the first thing I did was to create a new file on my repo but it didnt seem to work at first.
+Some comfusing moments for me was the repo because at first I created my own repo and started writing what was told in the introduction but I didnt think this was what we were suppose to do until i figured out we had to write it in the repo we were suppose to copy at the beginning and write it in files in the introduction
+Some stragies I used when I got stuck for example I didnt know how to open a repo or copy one so I did some reserch online even asking some questions on the google ai which helped somewhat but I still had to be on my own and figure some stuff out
+I decided not to skip any information because I knew evrything that was in the introduction and README.md were important to follow.
+What I feel more confident about right now is how to copy files and add files to my repo. I feel like I have improved in a short amount of time which is one thing im proud about 
+I think something that feel unclear to me is probably if im adding the file to the repo and if you could see it and if im doing everything right.

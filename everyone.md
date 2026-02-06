@@ -54,7 +54,7 @@ Type your name, your favorite animal on any of the line below. When you are done
 46. _
 47. _
 48. _
-49. _
+49. Allan Guijosa, Dog
 50. _
 51. _
 52. _
