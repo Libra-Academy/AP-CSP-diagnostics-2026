@@ -72,7 +72,7 @@ Type your name, your favorite animal on any of the line below. When you are done
 64. _
 65. _
 66. _
-67. _
+67. Jose Villalva, Cat
 68. _
 69. _
 70. 
