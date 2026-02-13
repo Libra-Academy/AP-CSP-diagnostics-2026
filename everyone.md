@@ -21,7 +21,7 @@ Type your name, your favorite animal on any of the line below. When you are done
 13. _
 14. Kimberly Chanchavac, Dog
 15. _
-16. _
+16. _Guadalupe Diego, Tigers
 17. _
 18. _
 19. _
