@@ -64,7 +64,7 @@ Type your name, your favorite animal on any of the line below. When you are done
 56. _
 57. _
 58. _
-59. _
+59. Christopher Gonzalez, penguin
 60. _
 61. _
 62. _
